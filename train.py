@@ -224,8 +224,8 @@ if __name__ == "__main__":
     #----------------------------------------------------#
     #   获得图片路径和标签
     #----------------------------------------------------#
-    train_annotation_path   = 'data/train.txt'
-    val_annotation_path     = 'data/test.txt'
+    train_annotation_path   = 'VOC2007/train.txt'
+    val_annotation_path     = 'VOC2007/test.txt'
     
     #----------------------------------------------------#
     #   获取classes和anchor
