@@ -41,7 +41,7 @@ class FRCNNDataset(Dataset):
         #------------------------------#
         #   读取图像并转换成RGB图像
         #------------------------------#
-        image   = Image.open('data/'+line[0])
+        image   = Image.open('VOC2007/'+line[0])
         image   = cvtColor(image)
         #------------------------------#
         #   获得图像的高宽与目标高宽
